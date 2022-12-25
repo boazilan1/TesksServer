@@ -1,0 +1,238 @@
+דצמ׳ 25, 2022 10:12:12 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: New client connected
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Received GET /addtask/Buy%20bananas/20221225/1345 HTTP/1.1
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping GET /addtask/Buy%20bananas/20221225/1345 HTTP/1.1
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Host: 127.0.0.1:9797
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Connection: keep-alive
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Cache-Control: max-age=0
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Microsoft Edge";v="108"
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-mobile: ?0
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-platform: "Windows"
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping DNT: 1
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Upgrade-Insecure-Requests: 1
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Site: none
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Mode: navigate
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-User: ?1
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Dest: document
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Encoding: gzip, deflate, br
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Language: en-US,en;q=0.9,he;q=0.8,de;q=0.7
+דצמ׳ 25, 2022 10:12:17 לפנה״צ Todo resolvePage
+FINE: Resolved parameterized /addtask/Buy%20bananas/20221225/1345 to page /addtask/
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer <init>
+INFO: Server is writing response status 200
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer write
+FINEST: Server is writing <H1>Tasks</H1><H2>2 total</H2><br><ul><div><a href='/check/Buy%20bananas/2022-12-25T13:45'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy%20bananas 2022-12-25T13:45</div><div><a href='/check/Buy milk/2022-12-25T11:12:12.722934200'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy milk 2022-12-25T11:12:12.722934200</div>
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
+דצמ׳ 25, 2022 10:12:17 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: New client connected
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Received GET /addtask/Buy%20bananas/20221225/1345 HTTP/1.1
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping GET /addtask/Buy%20bananas/20221225/1345 HTTP/1.1
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Host: 127.0.0.1:9797
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Connection: keep-alive
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Cache-Control: max-age=0
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Microsoft Edge";v="108"
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-mobile: ?0
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-platform: "Windows"
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping DNT: 1
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Upgrade-Insecure-Requests: 1
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Site: none
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Mode: navigate
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-User: ?1
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Dest: document
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Encoding: gzip, deflate, br
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Language: en-US,en;q=0.9,he;q=0.8,de;q=0.7
+דצמ׳ 25, 2022 10:12:32 לפנה״צ Todo resolvePage
+FINE: Resolved parameterized /addtask/Buy%20bananas/20221225/1345 to page /addtask/
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer <init>
+INFO: Server is writing response status 500
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer write
+FINEST: Server is writing <H1>Task already exists</H1>
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
+דצמ׳ 25, 2022 10:12:32 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: New client connected
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Received GET /addtask/Buy%20bananas/20221225/1350 HTTP/1.1
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping GET /addtask/Buy%20bananas/20221225/1350 HTTP/1.1
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Host: 127.0.0.1:9797
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Connection: keep-alive
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Microsoft Edge";v="108"
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-mobile: ?0
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-platform: "Windows"
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping DNT: 1
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Upgrade-Insecure-Requests: 1
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Site: none
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Mode: navigate
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-User: ?1
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Dest: document
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Encoding: gzip, deflate, br
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Language: en-US,en;q=0.9,he;q=0.8,de;q=0.7
+דצמ׳ 25, 2022 10:12:39 לפנה״צ Todo resolvePage
+FINE: Resolved parameterized /addtask/Buy%20bananas/20221225/1350 to page /addtask/
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer <init>
+INFO: Server is writing response status 200
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer write
+FINEST: Server is writing <H1>Tasks</H1><H2>3 total</H2><br><ul><div><a href='/check/Buy%20bananas/2022-12-25T13:50'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy%20bananas 2022-12-25T13:50</div><div><a href='/check/Buy%20bananas/2022-12-25T13:45'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy%20bananas 2022-12-25T13:45</div><div><a href='/check/Buy milk/2022-12-25T11:12:12.722934200'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy milk 2022-12-25T11:12:12.722934200</div>
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
+דצמ׳ 25, 2022 10:12:39 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: New client connected
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Received GET / HTTP/1.1
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping GET / HTTP/1.1
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Host: 127.0.0.1:9797
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Connection: keep-alive
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Microsoft Edge";v="108"
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-mobile: ?0
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-platform: "Windows"
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping DNT: 1
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Upgrade-Insecure-Requests: 1
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Site: none
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Mode: navigate
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-User: ?1
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Dest: document
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Encoding: gzip, deflate, br
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Language: en-US,en;q=0.9,he;q=0.8,de;q=0.7
+דצמ׳ 25, 2022 10:12:43 לפנה״צ Todo resolvePage
+FINE: Resolved exactly / to page /
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer <init>
+INFO: Server is writing response status 200
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer write
+FINEST: Server is writing <H1>Tasks</H1><H2>3 total</H2><br><ul><div><a href='/check/Buy%20bananas/2022-12-25T13:50'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy%20bananas 2022-12-25T13:50</div><div><a href='/check/Buy%20bananas/2022-12-25T13:45'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy%20bananas 2022-12-25T13:45</div><div><a href='/check/Buy milk/2022-12-25T11:12:12.722934200'><img style='width: 18px; height: 18px;' src='https://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png'></a> Buy milk 2022-12-25T11:12:12.722934200</div>
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
+דצמ׳ 25, 2022 10:12:43 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: New client connected
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Received GET /check/Buy%20bananas/2022-12-25T13:50 HTTP/1.1
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping GET /check/Buy%20bananas/2022-12-25T13:50 HTTP/1.1
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Host: 127.0.0.1:9797
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Connection: keep-alive
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Microsoft Edge";v="108"
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-mobile: ?0
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping sec-ch-ua-platform: "Windows"
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Upgrade-Insecure-Requests: 1
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping DNT: 1
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Site: same-origin
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Mode: navigate
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-User: ?1
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Sec-Fetch-Dest: document
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Referer: http://127.0.0.1:9797/
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Encoding: gzip, deflate, br
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+FINEST: Skipping Accept-Language: en-US,en;q=0.9,he;q=0.8,de;q=0.7
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer <init>
+INFO: Server is writing response status 404
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer$Request$Writer write
+FINEST: Server is writing <H1>Page not found</H1>/check/Buy%20bananas/2022-12-25T13:50
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
+דצמ׳ 25, 2022 10:12:59 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: New client connected
+דצמ׳ 25, 2022 10:20:23 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+WARNING: Receive terminated
+דצמ׳ 25, 2022 10:20:23 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
+דצמ׳ 25, 2022 10:20:23 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: New client connected
+דצמ׳ 25, 2022 10:20:23 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+WARNING: Receive terminated
+דצמ׳ 25, 2022 10:20:23 לפנה״צ super_simple_web_server.SuperSimpleWebServer waitForRequest
+INFO: Server is listening on port 9797
