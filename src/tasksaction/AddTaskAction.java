@@ -8,14 +8,15 @@ import java.util.List;
 import java.util.Map;
 
 import tasks.Task;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 import uriparse.TaskParser;
 
 public class AddTaskAction implements TasksAction {
 	private static final String KEY_TASK = "task";
 	
 	@Override
-	public TasksBundle doAction(final TasksBundle tasks, final Map<String, Object> params) {
+	public TaskBundle doAction(final TaskBundle tasks, final Map<String, Object> params) {
 		tasks.add((Task)params.get(KEY_TASK));
 		
 		return tasks;

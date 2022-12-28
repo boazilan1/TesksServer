@@ -18,7 +18,8 @@ import org.junit.jupiter.api.Test;
 
 import tasks.MutableState;
 import tasks.Task;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 import tasksaction.AddTaskAction;
 
 class AddTaskTest {
@@ -41,7 +42,7 @@ class AddTaskTest {
 
 	@Test
 	void addingOneTask() {
-		TasksBundle tasks = new TasksBundle();
+		TaskBundle tasks = new TasksBundleOmMemory();
 		assertEquals(0, tasks.size());
 
 		List<String> input = Arrays.asList("MyTask", "20221225", "1251");

@@ -9,13 +9,14 @@ import java.time.temporal.TemporalUnit;
 import java.util.List;
 
 import super_simple_web_server.SuperSimpleWebServer.Request;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 
 public class ChooseDate implements WebAction {
 	private static final int NUM_DAYS_TO_DISPLAY = 30;
 
 	@Override
-	public String doAction(Request request, String untrust_remainingUriParams, TasksBundle tasks) {
+	public String doAction(Request request, String untrust_remainingUriParams, TaskBundle tasks) {
 		String page = "<H2>Choose a date:</H2>";
 		LocalDate endDate = LocalDate.now().plus(NUM_DAYS_TO_DISPLAY, ChronoUnit.DAYS);
 		

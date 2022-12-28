@@ -4,11 +4,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 
 public class Identity implements TasksAction {
 	@Override
-	public TasksBundle doAction(TasksBundle tasks, Map<String, Object> params) {
+	public TaskBundle doAction(TaskBundle tasks, Map<String, Object> params) {
 		return tasks;
 	}
 

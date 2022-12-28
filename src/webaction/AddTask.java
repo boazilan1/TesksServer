@@ -6,13 +6,14 @@ import java.util.Map;
 
 import pagegen.BasicParts;
 import super_simple_web_server.SuperSimpleWebServer.Request;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 import tasksaction.TasksAction;
 
 public class AddTask implements WebAction {
 
 	@Override
-	public String doAction(final Request request, final String untrust_remainingUriParams, TasksBundle tasks) {
+	public String doAction(final Request request, final String untrust_remainingUriParams, TaskBundle tasks) {
 		try {
 			int oldSize = tasks.size();
 

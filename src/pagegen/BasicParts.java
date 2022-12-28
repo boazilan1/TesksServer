@@ -4,19 +4,22 @@ import java.util.Map.Entry;
 
 import tasks.MutableState;
 import tasks.Task;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 import uriparse.TaskEncoder;
 
 public class BasicParts {
-	public static String tasksHeader(final TasksBundle tasks) {
-		return "<H1>Tasks</H1><H2>" 
+	public static String tasksHeader(final TaskBundle tasks) {
+		//"<link rel='icon' type='image/favicon.ico' href='/images/favicon.ico'>"
+		return "<link rel='icon' type='image/favicon.ico' href='/images/favicon.ico'>"
+				+"<H1>Tasks</H1><H2>" 
 				+ tasks.size() + " total</H2> " 
 				+ "<a href='/newtaskname'>"
 				+ "<img style='width: 30px; height: 30px;' src='https://i.pinimg.com/736x/d1/60/71/d16071eeff65602827db49576e734139.jpg'></a>"
 				+ "<br>";
 	}
 		
-	public static String tasksList(final TasksBundle tasks) {
+	public static String tasksList(final TaskBundle tasks) {
 		if (tasks.isEmpty()) {
 			return "<H3>No tasks, yet...</H3>";
 		}

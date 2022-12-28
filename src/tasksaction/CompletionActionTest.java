@@ -9,7 +9,8 @@ import java.util.Map;
 
 import org.junit.jupiter.api.Test;
 
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 
 class CompletionActionTest {
 
@@ -18,7 +19,7 @@ class CompletionActionTest {
 		CompletionAction completionAction = new CompletionAction();
 	}
 	
-	private TasksBundle addCompletionAction(TasksBundle tasks ,List<String> input,String addToInput) {		
+	private TaskBundle addCompletionAction(TaskBundle tasks ,List<String> input,String addToInput) {		
 		AddTaskAction act = new AddTaskAction();
 		Map<String, Object> params = act.validate(input);
 		tasks = act.doAction(tasks, params);
@@ -34,7 +35,7 @@ class CompletionActionTest {
 	
 	@Test
 	void testdoAction() {		
-		TasksBundle tasks = new TasksBundle();
+		TaskBundle tasks = new TasksBundleOmMemory();
 		assertEquals(0, tasks.size());
 
 		List<String> input = Arrays.asList("MyTask", "20221225", "1251");

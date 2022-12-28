@@ -4,9 +4,10 @@ import java.util.List;
 import java.util.Map;
 
 import super_simple_web_server.SuperSimpleWebServer.Request;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 
 public interface TasksAction {
-	TasksBundle doAction(final TasksBundle tasks, final Map<String, Object> params);
+	TaskBundle doAction(final TaskBundle tasks, final Map<String, Object> params);
 	Map<String, Object> validate(final List<String> untrust_params);
 }

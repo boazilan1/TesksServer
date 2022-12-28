@@ -11,7 +11,7 @@ import filehandel.AddTasksFile;
 import uriparse.TaskEncoder;
 import filehandel.AddTasksFile;
 
-public final class TasksBundle implements Iterable<Entry<Task, MutableState>> {
+public final class TasksBundleOmMemory implements Iterable<Entry<Task, MutableState>>,TaskBundle {
 	private final Map<Task, MutableState> m_tasks = new HashMap<>();
 	
 	public final void add(final Task task) {
@@ -20,9 +20,7 @@ public final class TasksBundle implements Iterable<Entry<Task, MutableState>> {
 		}
 		final int oldNumTasks = m_tasks.size();
 		m_tasks.put(task, new MutableState());
-		
-		AddTasksFile.addTaskFile(task);
-		
+				
 		assert (m_tasks.size() == oldNumTasks + 1);
 	}
 	
@@ -45,4 +43,11 @@ public final class TasksBundle implements Iterable<Entry<Task, MutableState>> {
 		
 		return m_tasks.get(task);
 	}
+
+	@Override
+	public void deletAllTesks() {
+		// TODO Auto-generated method stub
+		
+	}
 }
+

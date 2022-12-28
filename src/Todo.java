@@ -6,7 +6,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -18,7 +21,9 @@ import super_simple_web_server.SuperSimpleWebServer;
 import super_simple_web_server.SuperSimpleWebServer.Request;
 import tasks.Task;
 import tasks.TaskAlreadyExistsException;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TaskBundleOnFile;
+import tasks.TasksBundleOmMemory;
 import tasksaction.CompletionAction;
 import webaction.AddTask;
 import webaction.CheckTask;
@@ -43,18 +48,12 @@ public final class Todo {
 		EXACT_PAGES.add(new AbstractMap.SimpleImmutableEntry<String, WebAction>("/newtaskname", new EnterNewTaskName()));
 		EXACT_PAGES.add(new AbstractMap.SimpleImmutableEntry<String, WebAction>("/choosedate", new ChooseDate()));
 	}
-	private static final TasksBundle m_allTasks = new TasksBundle();
+	private static final TaskBundle m_allTasks = new TaskBundleOnFile();
 	
 	public static void main(final String[] args) {
 		final Todo server = new Todo();
 		
-		//server.m_allTasks.add(new Task("Buy milk", LocalDateTime.of(LocalDate.now(), LocalTime.of(12, 15))));
-		try {
-			AddTasksFile.addTasksToBundeleFromFile(m_allTasks,"tasks");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+
 		server.serverLoop();
 	}
 	
@@ -75,7 +74,20 @@ public final class Todo {
 	}
 	
 	private void handleRequest(final Request request) {
-		try {
+		final String untrust_uri = request.getUri();
+		try {	
+			
+			if(untrust_uri.equals("/favicon.ico")) {
+				try {
+					byte[] bytes= Files.readAllBytes(Paths.get("images/favicon.ico"));
+					request.getBinaryWriter("image/x-icon").write(bytes, bytes.length);
+					return;
+				}
+				catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			
 			try {
 				final String page = resolvePage(request);
 				request.getWriter(Status.OK).write(page);
@@ -97,7 +109,7 @@ public final class Todo {
 	
 	private String resolvePage(final Request request) throws PageNotFoundException {
 		final String untrust_uri = request.getUri();
-
+	
 		for (Entry<String, WebAction> endPointMapping : EXACT_PAGES) {
 			if (untrust_uri.equals(endPointMapping.getKey())) {
 				s_logger.log(Level.FINE, "Resolved exactly " + untrust_uri + " to page " + endPointMapping.getKey());

@@ -6,12 +6,13 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
 import super_simple_web_server.SuperSimpleWebServer.Request;
-import tasks.TasksBundle;
+import tasks.TaskBundle;
+import tasks.TasksBundleOmMemory;
 
 public class ChooseTime implements WebAction {
 
 	@Override
-	public String doAction(Request request, String untrust_remainingUriParams, TasksBundle tasks) {
+	public String doAction(Request request, String untrust_remainingUriParams, TaskBundle tasks) {
 		String page = "<H2>Choose a time:</H2>";
 		
 		int[] possibleMinutes = { 0, 15, 30, 45 };
